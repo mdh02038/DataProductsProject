@@ -1,0 +1,25 @@
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-weight: 900;
+    line-height: 1.1;
+    color: black;
+}
+
+body {
+ /*   background-color: #fff; */
+    background: url(topo1.jpg);
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+.results {
+    background-color: #F0F0F0;
+    background-size: cover;
+    padding: 20px;
+}
+
+.form {
+    background-color: #F0F0F0;
+}
