@@ -6,5 +6,5 @@ shinyServer(
         
         output$resultWalkingSteps <- renderText({CalculateSteps(input$basisScale,input$newScale,input$walkingSteps)[1]})
         output$resultRunningSteps <- renderText({CalculateSteps(input$basisScale,input$newScale,input$runningSteps)[1]})
-    }
+        }
 )

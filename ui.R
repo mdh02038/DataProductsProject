@@ -1,3 +1,5 @@
+library(shiny)
+
 shinyUI(fluidPage(
     includeCSS("styles.css"),
     # Application title
@@ -24,7 +26,12 @@ shinyUI(fluidPage(
     ),
     
     mainPanel(
+     
         div( class="results",
+             p('Convert number of steps per 1/4 inch from one map scale to another.\
+               Enter your reference pace information in the right hand panel along \
+               with the desire map scale. Press submit. Translated pace information \
+               will be updated in the left hand panel'),
              h3('Translated Pace'),
              h4('Scale: 1:-------'),
              verbatimTextOutput("newScale"),
